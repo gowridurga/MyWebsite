@@ -1,0 +1,74 @@
+/* Footer container styling */
+footer {
+  background-color: #333; /* Dark background for footer */
+  color: white; /* Text color for footer */
+  padding: 30px 0; /* Spacing around the footer */
+  text-align: center; /* Center text within footer */
+}
+
+/* Navigation links styling */
+footer nav {
+  margin-bottom: 20px; /* Space between nav links and social icons */
+}
+
+/* Styling for each footer link */
+.footer-link {
+  color: #fff; /* White text color for links */
+  text-decoration: none; /* Remove underline from links */
+  margin: 0 15px; /* Horizontal space between links */
+  font-size: 16px; /* Font size for the links */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Hover effect for footer links */
+.footer-link:hover {
+  color: #ffbf47; /* Gold color on hover */
+}
+
+/* Social icon section styling */
+.social-icons {
+  margin-top: 20px; /* Space above social icons */
+}
+
+/* Styling for each social icon link */
+.social-icons a {
+  color: #fff; /* White color for icons */
+  font-size: 20px; /* Font size for social icons */
+  margin: 0 10px; /* Space between each icon */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+/* Hover effect for social icon links */
+.social-icons a:hover {
+  color: #ffbf47; /* Change color on hover */
+}
+
+/* Responsive styling for mobile screens */
+@media (max-width: 768px) {
+  footer {
+    padding: 20px 10px; /* Reduced padding on smaller screens */
+  }
+
+  /* Stack the links vertically on smaller screens */
+  footer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-link {
+    margin: 10px 0; /* Vertical spacing between links */
+  }
+
+  /* Stack the social icons vertically */
+  .social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-icons a {
+    margin: 8px 0; /* Vertical spacing between icons */
+  }
+}
